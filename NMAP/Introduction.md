@@ -2,7 +2,7 @@
 
 Do you find yourself constantly searching for low-cost and no-cost tools to add to your cybersecurity toolbox? If you're like me, the answer is definitely yes. The problem is that some of these tools don’t deserve to be there because they either don’t do what they claim to do, or what they do is simply not that important. I’m here to show you that the Nmap software suite is one of those few tools that will exceed your expectations.
 
-## Nmap - What It Is and Why It's Important - NM
+## Nmap - What It Is and Why It's Important
 NMAP means Network Mapper, it can create network inventory, monitor host and service uptime, identify open ports running services and their version determining OS, inspect firewalls and rule sets, and produce both searchable and report quality output.
 
 According to the official Nmap website, Nmap stands for Network Mapper, but I don’t think that gives it enough credit. It’s a free and open-source utility for network discovery and security auditing. Nmap crafts and sends IP packets onto the wire to discover and interrogate devices on private networks and the Internet. Originally developed in 1997 by Gordon Lyon, known online and at conferences like Defcon as Fyodor, Nmap has become an indispensable tool in the cybersecurity community. In this course, I’ll refer to Nmap as a suite of products because it includes other tools that can be used independently. For example, Zenmap is its graphical user interface, Npcap is its packet capture library, and tools like Ncat, Nping, and Ndiff provide additional capabilities that work behind the scenes.
