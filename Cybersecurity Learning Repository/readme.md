@@ -7,7 +7,7 @@ This repository contains a structured path to learn and master various aspects o
 ### Open Source Intelligence (OSINT) Fundamentals
 Learn the basics of gathering intelligence using publicly available information.
 
-### Network Mapping and Analysis (NMAP)
+### [Network Mapping and Analysis (NMAP)](https://github.com/Excalibra/cybersecurity/tree/main/Cybersecurity%20Learning%20Repository/NMAP)
    Deep dive into NMAP, a powerful tool for network discovery and security auditing.
 
 ### Social Engineering
