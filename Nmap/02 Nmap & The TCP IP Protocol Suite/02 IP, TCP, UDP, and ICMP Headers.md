@@ -1,7 +1,7 @@
 # IP, TCP, UDP, and ICMP Headers
 - Encapsulation & the TCP 3-way handshake
 
-![image](https://github.com/user-attachments/assets/68e97b5f-8d0b-4496-9ced-3f33d1b9b555)
+![image](https://github.com/user-attachments/assets/4fe0b0b7-5549-4222-bf90-30726c17ecc7)
 
 
 - TCP header
