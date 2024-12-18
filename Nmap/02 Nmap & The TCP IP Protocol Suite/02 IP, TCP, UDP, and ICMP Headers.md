@@ -1,8 +1,5 @@
 # IP, TCP, UDP, and ICMP Headers
 - Encapsulation & the TCP 3-way handshake
-  
-  ![image](https://github.com/user-attachments/assets/3e18e84f-d48c-4898-ab5c-cc6f46e09677)<br>
-  [Data Encapsulation OSI TCPIP - YouTube video](https://www.youtube.com/watch?v=xaKvGnnuYmk)
 
 Some of you might be wondering why encapsulation and a TCP three-way handshake are covered in the same guide. Well, I don’t have a compelling explanation except that these two concepts are high-level mechanisms that must be understood to conceptualise what happens when Nmap scans are carried out. However, the truth is that encapsulation and the TCP three-way handshake are not inherently connected, aside from the fact that they are both part of the traditional TCP/IP stack and are both fundamental.
 
@@ -15,7 +12,7 @@ The image below highlights the two most important OSI or TCP/IP model layers on 
 
 The next image below illustrates which protocols operate within these layers, as well as the names assigned to datagrams at each layer.
 
-![image](https://github.com/user-attachments/assets/3e18e84f-d48c-4898-ab5c-cc6f46e09677)<br>
+![image](https://github.com/user-attachments/assets/912bd24b-74df-42cb-a219-2df98f272b0b)<br>
 [Data Encapsulation OSI TCPIP - YouTube video](https://www.youtube.com/watch?v=xaKvGnnuYmk)
 
 At the transport layer, which corresponds to Layer 4 of the OSI model, a datagram is referred to as a segment, and it can utilise either TCP or UDP. At the network layer, or Layer 3, a datagram is called a packet. I wanted to begin with this because we’ll delve further into how Nmap leverages these layers by manipulating their headers during its scans.
