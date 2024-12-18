@@ -65,21 +65,29 @@ You can also conduct a so-called **“Christmas tree scan”** or **X-mas scan**
 
 ## UDP Header
 
-- **Layer 4 protocol**  
-  - Source Port  
-  - Destination Port  
+Some of the same principles that apply to TCP also apply to UDP, although UDP itself is much simpler and involves less overhead than TCP. The most important component of the UDP header is the destination port, while the ephemeral source port is provided by your computer. It is essential to be familiar with constructing UDP scans in Nmap, as some critical services depend on UDP for communication. For instance, DNS uses UDP port 53, NTP uses port 123, NetBIOS uses port 137, and LDAP uses port 389. To initiate a UDP scan, use nmap -sU followed by the ports you wish to scan, specified with the -p switch.
 
-Nmap can perform UDP scans using `nmap -sU`.
+- Layer 4 protocol 
+- Source Port  
+- Destination Port
+- `nmap -sU` (UDP scan)
+
+![image](https://github.com/user-attachments/assets/6718ad77-3f9f-4e49-a0cf-aebaa5e8f338)
 
 ---
 
 ## IP Header
 
+The IPv4 header is attached to the TCP or UDP header through the process of encapsulation. IP is connectionless and operates at layer 3, within the network layer. You’ll notice that I have “version” circled in the graphic to the right. The only reason I’ve highlighted it is to avoid confusion. In IPv4 communication, this value will always be 4; however, that doesn’t mean it changes to 6 for IPv6 communication. In fact, IPv6 has an entirely different header. Beyond that, you don’t need to worry about the version field. The protocol field defines the protocol used in the creation of the packet. For the most part in Nmap, this will be TCP (protocol 6), UDP (protocol 17), or ICMP (protocol 1). The source address is typically your IP address, although it can be altered, while the destination address is the address of your target. nmap -sO allows you to determine which IP protocols are supported by target machines. By default, Nmap will scan all 256 possible protocol values and provide you with the results. As with the other slides in this module, I’ve provided a video for a deeper look into the IP header, should you wish to learn more.
+
 - **Layer 3 protocol**  
   - Version  
   - Protocol  
   - Source Address  
-  - Destination Address  
+  - Destination Address
+
+![image](https://github.com/user-attachments/assets/1a32ce03-f03f-453c-99db-b22ae9e008f4)
+[IP Header: Networking & TCP/IP Tutorial. TCP/IP Explained](https://www.youtube.com/watch?v=UrO-9Uagn24)
 
 ---
 
