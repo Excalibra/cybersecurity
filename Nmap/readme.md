@@ -2,6 +2,8 @@
 
 This repository contains a structured path to learn and master various aspects of cybersecurity. Each folder covers essential concepts, tools, and practices. Explore the topics to enhance your skills in ethical hacking, penetration testing, and cybersecurity fundamentals.
 
+### Disclaimer: All content is for informational research, learning, and exchange purposes only, to be used in a lawful and compliant manner. Thank you.
+
 ## Contents
 
 ### Open Source Intelligence (OSINT) 
