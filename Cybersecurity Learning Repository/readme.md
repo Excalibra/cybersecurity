@@ -9,6 +9,8 @@ Learn the basics of gathering intelligence using publicly available information.
 
 ### [Network Mapping and Analysis (NMAP)](https://github.com/Excalibra/cybersecurity/tree/main/Cybersecurity%20Learning%20Repository/NMAP)
    Deep dive into NMAP, a powerful tool for network discovery and security auditing.
+   - [Nmap & The TCP IP Protocol Suite](https://github.com/Excalibra/cybersecurity/tree/main/Cybersecurity%20Learning%20Repository/NMAP/Nmap%20%26%20The%20TCP%20IP%20Protocol%20Suite)
+     - [IPv4 for Nmap](https://github.com/Excalibra/cybersecurity/blob/main/Cybersecurity%20Learning%20Repository/NMAP/Nmap%20%26%20The%20TCP%20IP%20Protocol%20Suite/IPv4%20for%20NMAP.md)
 
 ### Social Engineering
 Explore the art of manipulating individuals to gain access to information or systems.
