@@ -1,4 +1,4 @@
-# Cybersecurity Learning Repository
+# Cybersecurity Repository
 
 This repository contains a structured path to learn and master various aspects of cybersecurity. Each folder covers essential concepts, tools, and practices. Explore the topics to enhance your skills in ethical hacking, penetration testing, and cybersecurity fundamentals.
 
