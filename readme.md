@@ -12,12 +12,13 @@ Gathering intelligence using publicly available information.
 ### [Network Mapping and Analysis (NMAP)](https://github.com/Excalibra/cybersecurity/tree/main/Cybersecurity%20Learning%20Repository/NMAP)
 Deep dive into NMAP, a powerful tool for network discovery and security auditing.
    - [Introduction](https://github.com/Excalibra/cybersecurity/tree/main/Nmap/01%20Introduction)
-   - [Nmap Glossary Terms](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/Nmap%20Glossary%20Terms.ipynb)
      - [An Overview and Its Significance](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/01%20Introduction/01%20An%20Overview%20and%20Its%20Significance.md)
      - [Nmap Basics](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/01%20Introduction/02%20Nmap%20Basics.md)
    - [Nmap & The TCP IP Protocol Suite](https://github.com/Excalibra/cybersecurity/tree/main/Nmap/02%20Nmap%20%26%20The%20TCP%20IP%20Protocol%20Suite)
      - [IPv4 for Nmap](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/02%20Nmap%20%26%20The%20TCP%20IP%20Protocol%20Suite/01%20IPv4%20for%20Nmap.md)
      - [IP, TCP, UDP, and ICMP Headers](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/02%20Nmap%20%26%20The%20TCP%20IP%20Protocol%20Suite/02%20IP%2C%20TCP%2C%20UDP%2C%20and%20ICMP%20Headers.md)
+   - [Nmap Glossary Terms](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/Nmap%20Glossary%20Terms.ipynb)
+
 
 ### Social Engineering
 Explore the art of manipulating individuals to gain access to information or systems.
