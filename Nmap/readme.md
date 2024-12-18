@@ -36,8 +36,8 @@ Capturing and analyzing network traffic.
 ### Web Application Penetration Testing
 Identify and exploit vulnerabilities in web applications.
 
-### Introduction to Burp Suite Pro
-Familiarize yourself with Burp Suite Pro, a leading web security testing tool.
+### Burp Suite Pro
+Leading web security testing tool.
 
 ### Advanced Penetration Testing Techniques  
 Explore sophisticated methods and tools for penetration testing.
