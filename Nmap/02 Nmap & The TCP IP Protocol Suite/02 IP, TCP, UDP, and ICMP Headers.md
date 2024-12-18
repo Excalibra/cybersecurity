@@ -9,12 +9,12 @@ Encapsulation is the process of adding headers and trailers to data. Many people
 The image below highlights the two most important OSI or TCP/IP model layers on the left, in the context of Nmap: the transport and network layers.
 
 ![image](https://github.com/user-attachments/assets/4fe0b0b7-5549-4222-bf90-30726c17ecc7)  
-[What Is a Three-Way Handshake in TCP? - YouTube video](https://www.youtube.com/watch?v=LyDqA-dAPW4)
+[What Is a Three-Way Handshake in TCP? - YouTube](https://www.youtube.com/watch?v=LyDqA-dAPW4)
 
 The next image below illustrates which protocols operate within these layers, as well as the names assigned to datagrams at each layer.
 
 ![image](https://github.com/user-attachments/assets/912bd24b-74df-42cb-a219-2df98f272b0b)  
-[Data Encapsulation OSI TCPIP - YouTube video](https://www.youtube.com/watch?v=xaKvGnnuYmk)
+[Data Encapsulation OSI TCPIP - YouTube](https://www.youtube.com/watch?v=xaKvGnnuYmk)
 
 At the transport layer, which corresponds to Layer 4 of the OSI model, a datagram is referred to as a segment, and it can utilise either TCP or UDP. At the network layer, or Layer 3, a datagram is called a packet. I wanted to begin with this because we’ll delve further into how Nmap leverages these layers by manipulating their headers during its scans.
 
