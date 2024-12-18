@@ -20,7 +20,7 @@ It is called an octet because the maximum value in each group is `2^8 - 1` (sinc
 ---
 
 ### **Structure**
-- Composed of **4 octets**.
+- Composed of **4 octets** : `XXX.XXX.XXX.XXX`.
 
 ---
 
