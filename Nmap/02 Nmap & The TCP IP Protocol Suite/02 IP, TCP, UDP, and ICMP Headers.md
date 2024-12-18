@@ -107,10 +107,56 @@ As with the other slides in this module, I’ve provided a video for a deeper lo
 
 ## ICMP Header
 
-- **Layer 3 protocol, kinda**  
-  - Type  
-  - Code  
+The Internet Control Message Protocol (ICMP) is widely used by network analysts to:
 
-### Ping Scan vs ICMP
+- Verify whether packets are routing successfully.
+- Check if hosts are operational.
+- Perform basic latency analysis.
 
-- **Ping Scan**: `nmap -sn -PE` (uses ICMP)
+This is typically achieved using the `ping` or `traceroute` commands in your operating system. ICMP is a supporting protocol that behaves similarly to layer 4 protocols but technically operates at **layer 3**. As shown in the graphic, ICMP must be attached to IP because its header does not include an address field. 
+
+The two most important fields in the ICMP header are:
+
+- **Type**
+- **Code**
+
+Common responses include types `0`, `3`, `8`, or `11`, such as:
+
+- **Destination Host Unreachable**
+- **TTL Exceeded**
+
+### Key Notes:
+
+- When you read about **ping scans in Nmap**, it doesn’t necessarily mean ICMP is being used.
+- ICMP primarily supports **TCP** and **UDP** scans in Nmap.
+- To specifically initiate an ICMP scan, you must use:  
+  ```bash
+  nmap -sn -PE
+  ```
+- Nmap can also use ICMP innovatively, such as creating small ICMP packets to quickly elicit responses from entire networks, which is much more efficient than pinging each device individually.
+- Despite this, **TCP** and **UDP scans** are generally more effective, and allowing Nmap to use ICMP as a helper often provides the best results.
+
+### Summary:
+
+- **Layer 3 protocol (kinda)**  
+  - `Type`  
+  - `Code`
+  - `Ping Scan != ICMP`
+  - Example ICMP usage: `nmap -sn -PE`
+
+![image](https://github.com/user-attachments/assets/af0a7357-596f-4211-8aa1-5fb192b9b97b)  
+[**TCP/IP Tutorial | ICMP Message Types**](https://www.youtube.com/watch?v=FprZF9agJJI)
+
+---
+
+In this guide, we covered two critical concepts in TCP/IP:
+
+1. **Encapsulation**  
+2. **The TCP Three-Way Handshake**
+
+We also examined:
+
+- **TCP** and **UDP** headers.
+- The **IP header**.
+- A discussion on **ICMP and its header**.
+
