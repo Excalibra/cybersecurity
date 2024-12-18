@@ -9,12 +9,12 @@ Encapsulation is the process of adding headers and trailers to data. Many people
 The image below highlights the two most important OSI or TCP/IP model layers on the left, in the context of Nmap: the transport and network layers.
 
 ![image](https://github.com/user-attachments/assets/4fe0b0b7-5549-4222-bf90-30726c17ecc7)  
-[What Is a Three-Way Handshake in TCP? - YouTube](https://www.youtube.com/watch?v=LyDqA-dAPW4)
+[**What Is a Three-Way Handshake in TCP? - YouTube**](https://www.youtube.com/watch?v=LyDqA-dAPW4)
 
 The next image below illustrates which protocols operate within these layers, as well as the names assigned to datagrams at each layer.
 
 ![image](https://github.com/user-attachments/assets/912bd24b-74df-42cb-a219-2df98f272b0b)  
-[Data Encapsulation OSI TCPIP - YouTube](https://www.youtube.com/watch?v=xaKvGnnuYmk)
+[**Data Encapsulation OSI TCPIP - YouTube**](https://www.youtube.com/watch?v=xaKvGnnuYmk)
 
 At the transport layer, which corresponds to Layer 4 of the OSI model, a datagram is referred to as a segment, and it can utilise either TCP or UDP. At the network layer, or Layer 3, a datagram is called a packet. I wanted to begin with this because we’ll delve further into how Nmap leverages these layers by manipulating their headers during its scans.
 
@@ -101,7 +101,7 @@ As with the other slides in this module, I’ve provided a video for a deeper lo
   - Destination Address  
 
 ![image](https://github.com/user-attachments/assets/1a32ce03-f03f-453c-99db-b22ae9e008f4)  
-[IP Header: Networking & TCP/IP Tutorial. TCP/IP Explained](https://www.youtube.com/watch?v=UrO-9Uagn24)
+[**IP Header: Networking & TCP/IP Tutorial. TCP/IP Explained - YouTube**](https://www.youtube.com/watch?v=UrO-9Uagn24)
 
 ---
 
@@ -145,7 +145,7 @@ Common responses include types `0`, `3`, `8`, or `11`, such as:
   - Example ICMP usage: `nmap -sn -PE`
 
 ![image](https://github.com/user-attachments/assets/af0a7357-596f-4211-8aa1-5fb192b9b97b)  
-[**TCP/IP Tutorial | ICMP Message Types**](https://www.youtube.com/watch?v=FprZF9agJJI)
+[**TCP/IP Tutorial | ICMP Message Types - YouTube**](https://www.youtube.com/watch?v=FprZF9agJJI)
 
 ---
 
