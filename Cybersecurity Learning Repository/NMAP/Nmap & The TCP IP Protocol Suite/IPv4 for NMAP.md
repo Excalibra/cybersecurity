@@ -28,7 +28,9 @@
   - Example: `192.168.1.0/24` indicates 24 bits are used for the network portion.
 
 ## Name Resolution:
-- **DNS**: Resolving human-readable names into IP addresses.
-- **Nmap & Name Resolution**: How Nmap utilizes DNS for scanning.
+- **DNS**:
+  DNS stands for Domain Name System. It serves as a translator, converting human-readable names into IP addresses. As discussed earlier, you can use a fully qualified domain name (FQDN), such as `scanme.nmap.org`, as a target for a scan. This makes it easier to identify and interact with devices on a network without needing to remember their numerical IP addresses.
+- **Nmap & Name Resolution**:
+  By default, Nmap relies on your computer’s name servers when performing a scan. However, you can specify alternate name servers for Nmap to use. This can be particularly useful if you do not trust your own name servers or if you wish to compare how different name servers resolve domain names.
 
-
+One key reason for using alternate name servers is to investigate whether a network or DNS server has been compromised by an attacker. Understanding the mechanics of DNS can greatly enhance your ability to use Nmap effectively, particularly in scenarios involving security assessments or troubleshooting.
