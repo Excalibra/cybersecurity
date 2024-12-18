@@ -4,19 +4,19 @@ This repository contains a structured path to learn and master various aspects o
 
 ## Contents
 
-### Open Source Intelligence (OSINT) Fundamentals
-Learn the basics of gathering intelligence using publicly available information.
+### Open Source Intelligence (OSINT) 
+Gathering intelligence using publicly available information.
 
 ### [Network Mapping and Analysis (NMAP)](https://github.com/Excalibra/cybersecurity/tree/main/Cybersecurity%20Learning%20Repository/NMAP)
-   Deep dive into NMAP, a powerful tool for network discovery and security auditing.
+Deep dive into NMAP, a powerful tool for network discovery and security auditing.
    - [Nmap & The TCP IP Protocol Suite](https://github.com/Excalibra/cybersecurity/tree/main/Cybersecurity%20Learning%20Repository/NMAP/Nmap%20%26%20The%20TCP%20IP%20Protocol%20Suite)
      - [IPv4 for Nmap](https://github.com/Excalibra/cybersecurity/blob/main/Cybersecurity%20Learning%20Repository/NMAP/Nmap%20%26%20The%20TCP%20IP%20Protocol%20Suite/IPv4%20for%20NMAP.md)
 
 ### Social Engineering
 Explore the art of manipulating individuals to gain access to information or systems.
 
-### Kali Linux Fundamentals
-Get started with Kali Linux, the go-to operating system for security professionals.
+### Kali Linux
+The go-to operating system for security professionals.
 
 ### Phishing and Countermeasures
 Understand phishing attacks and learn how to defend against them.
@@ -24,17 +24,17 @@ Understand phishing attacks and learn how to defend against them.
 ### Penetration Testing and Ethical Hacking  
 A comprehensive guide to penetration testing practices and ethical hacking principles.
 
-### Password Cracking Tool Fundamentals
-Introduction to tools and techniques used for password recovery and auditing.
+### Password Cracking Tool
+Tools and techniques used for password recovery and auditing.
 
-### Password Cracking 101 
-Learn the step-by-step process of password cracking and its ethical implications.
+### Password Cracking
+Password cracking and its ethical implications.
 
 ### Network Sniffing
-Master techniques for capturing and analyzing network traffic.
+Capturing and analyzing network traffic.
 
 ### Web Application Penetration Testing
-Learn to identify and exploit vulnerabilities in web applications.
+Identify and exploit vulnerabilities in web applications.
 
 ### Introduction to Burp Suite Pro
 Familiarize yourself with Burp Suite Pro, a leading web security testing tool.
@@ -46,7 +46,7 @@ Explore sophisticated methods and tools for penetration testing.
 Guide to utilizing Unicornscan for advanced network scanning.
 
 ### Offensive Penetration Testing  
-Learn offensive tactics and strategies used in penetration testing.
+Offensive tactics and strategies used in penetration testing.
 
 ### Penetration Testing Execution Standard (PTES)
 Overview of the PTES framework for structured penetration testing.
