@@ -26,6 +26,25 @@
   This functionality is integrated into Nmap as part of its packet-crafting tool, Nping. If you’re interested in learning more about encapsulation and the TCP three-way handshake, I’ve included links to some informative videos below the images.
 
 - TCP header
+  TCP is a transport layer protocol (Layer 4 of the OSI model) that provides reliable, connection-oriented communication and is passed down to be encapsulated by IP. From Nmap’s perspective, the most important elements of the TCP header to understand are the source port, the destination port, and the TCP flags. While other aspects can be modified with Nmap using Nping, these are the ones you’ll primarily work with when using Nmap.
+
+  In a standard Nmap scan, the source port is ephemeral, meaning your scanning station automatically determines which port it opens for communication, typically selecting a higher-level, non-well-known port—one above 1024. Conversely, the destination port is either specified by you in your scan command or selected by Nmap. For example, a regular Nmap scan examines 1,000 commonly used ports, whereas a fast scan checks the 100 most popular ports. To execute a fast scan, you can use the -F command-line switch or explicitly specify the ports you want to scan. I’ll demonstrate this later.
+
+  Another powerful feature of Nmap is that it doesn’t require a full TCP connection (i.e., a three-way handshake) to perform a scan. By default, Nmap conducts a TCP SYN scan, setting the SYN flag but not completing the handshake with a SYN-ACK. This is because SYN scan responses are just as reliable as full connect scans but are quieter and more discreet. For example:
+
+    nmap -sS initiates a SYN scan.
+    nmap -sA initiates an ACK scan.
+    nmap -sT performs a full connect scan.
+
+  Other notable TCP flags include:
+
+    U for Urgent,
+    P for Push,
+    R for Reset, and
+    F for Finish.
+
+  You can also conduct a so-called “Christmas tree scan” or X-mas scan using the -sX switch. This sets all the TCP flags in the header, effectively “lighting up” the TCP segment like a Christmas tree. While responses to this type of scan can provide valuable information, they are far from discreet.
+
     - Layer 4 protocol
       - Source Port
       - Destination Port
@@ -33,6 +52,8 @@
      - Nmap -sS(TCP SYN scan)
      - Nmap -sA(TCP ACK scan
      - Nmap -sT(TCP connect scan)
+  
+  ![image](https://github.com/user-attachments/assets/e5cae681-918b-447a-915c-c0476ff21848)
 
 
     - UDP header
