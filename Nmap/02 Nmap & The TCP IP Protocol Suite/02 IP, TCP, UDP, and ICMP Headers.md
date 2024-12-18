@@ -72,7 +72,7 @@ Some of the same principles that apply to TCP also apply to UDP, although UDP it
 - Destination Port
 - `nmap -sU` (UDP scan)
 
-![image](https://github.com/user-attachments/assets/6718ad77-3f9f-4e49-a0cf-aebaa5e8f338)
+![image](https://github.com/user-attachments/assets/e8fa4170-8941-45fd-a699-ae8f81955a6b)
 
 ---
 
