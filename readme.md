@@ -6,7 +6,7 @@ This repository contains a structured path to learn and master various aspects o
 
 ## Contents
 
-### Open Source Intelligence (OSINT) 
+### [Open Source Intelligence (OSINT)](https://github.com/Excalibra/cybersecurity/tree/main/OSINT)
 Gathering intelligence using publicly available information.
 
 ### [Network Mapping and Analysis (NMAP)](https://github.com/Excalibra/cybersecurity/tree/main/Cybersecurity%20Learning%20Repository/NMAP)
