@@ -1,4 +1,4 @@
-## Getting Help - VM
+## Getting Help
 
 ### General Commands:
 - `nmap -V`: Displays the Nmap version, helpful for comparison and understanding the platform used.
