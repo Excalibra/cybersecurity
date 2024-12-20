@@ -32,6 +32,7 @@ Deep dive into NMAP, a powerful tool for network discovery and security auditing
 
 ### [Social Engineering](https://github.com/Excalibra/cybersecurity/tree/main/Social%20Engineering)
 Explore the art of manipulating individuals to gain access to information or systems.
+   - [Introduction](https://github.com/Excalibra/cybersecurity/blob/main/Social%20Engineering/Introduction.md)
 
 ### Kali Linux
 The go-to operating system for security professionals.
