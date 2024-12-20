@@ -21,6 +21,11 @@ Deep dive into NMAP, a powerful tool for network discovery and security auditing
      - [Nmap & IPv6](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/02%20Nmap%20%26%20The%20TCP%20IP%20Protocol%20Suite/04%20Nmap%20%26%20IPv6.md)
    - [Network Scanning & Discovery](https://github.com/Excalibra/cybersecurity/tree/main/Nmap/03%20Network%20Scanning%20%26%20Discovery)
      - [Target Specification Review](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/03%20Network%20Scanning%20%26%20Discovery/Target%20Specification%20Review.md)
+     - [Scan Techniques](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/03%20Network%20Scanning%20%26%20Discovery/02%20Scan%20Techniques.md)
+     - [Host Discovery](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/03%20Network%20Scanning%20%26%20Discovery/03%20Host%20Discovery.md)
+     - [TCP & UDP Port Scanning](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/03%20Network%20Scanning%20%26%20Discovery/04%20TCP%20%26%20UDP%20Port%20Scanning.md)
+     - [Service and Application Version Detection](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/03%20Network%20Scanning%20%26%20Discovery/05%20Service%20and%20Application%20Version%20Detection.md)
+     - [NSE, Vulnerability Testing & Explotation](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/03%20Network%20Scanning%20%26%20Discovery/06%20NSE%2C%20Vulnerability%20Testing%20%26%20Explotation.md)
        
    - [Nmap Glossary Terms](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/Nmap%20Glossary%20Terms.ipynb)
 
