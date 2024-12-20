@@ -6,39 +6,61 @@ I want to stress that we don't use these individually. So, for example, I wouldn
 
 ### Three Components of Social Engineering 
 
-- Elicitation: So elicitation is basically when an attacker uses open-ended questions to try to get more information about the victim. So if you think of this as a salesperson, and I’m a salesperson, I call up a potential customer and I'm on the phone with them, and rather than asking them, "Do you like your current service provider?"—which is a yes or no question, a closed-ended question—what I want to do instead is ask them open-ended questions.
+#### Elicitation:
 
-  So what I might ask them is, "What kinds of things don’t you like about your current service provider?" or "What kinds of challenges do you have that your current service provider’s not meeting?" And you see how that’s open-ended? It allows them to answer more than just yes or no. They’re able to give us more information about that particular issue.
+So elicitation is basically when an attacker uses open-ended questions to try to get more information about the victim. So if you think of this as a salesperson, and I’m a salesperson, I call up a potential customer and I'm on the phone with them, and rather than asking them, "Do you like your current service provider?"—which is a yes or no question, a closed-ended question—what I want to do instead is ask them open-ended questions.
 
-  So we want to do the same thing here in social engineering. Instead of asking somebody, "Does your company use Windows servers?"—that’s a yes or no question, a closed-ended question—I might ask instead, "Hey, have you guys ever had any trouble in your company migrating to Azure, or have you had any cloud migration issues, et cetera?" Right? They might say, "Yeah, our Azure has been a problem because a lot of organizations are multi-cloud right now." They might specify what the issue is. They might say, "Yeah, we’ve had some trouble with misconfigured S3 buckets." Well, you know right away that’s AWS, and that’s S3 buckets.
+So what I might ask them is, "What kinds of things don’t you like about your current service provider?" or "What kinds of challenges do you have that your current service provider’s not meeting?" And you see how that’s open-ended? It allows them to answer more than just yes or no. They’re able to give us more information about that particular issue.
 
-  So guess what? You might have just found a way into that company. Right? So that’s why we do elicitation.
+So we want to do the same thing here in social engineering. Instead of asking somebody, "Does your company use Windows servers?"—that’s a yes or no question, a closed-ended question—I might ask instead, "Hey, have you guys ever had any trouble in your company migrating to Azure, or have you had any cloud migration issues, et cetera?" Right? They might say, "Yeah, our Azure has been a problem because a lot of organizations are multi-cloud right now." They might specify what the issue is. They might say, "Yeah, we’ve had some trouble with misconfigured S3 buckets." Well, you know right away that’s AWS, and that’s S3 buckets.
 
-- Interrogation: Interrogation, as the name implies, is when we're asking questions. A key point here is the body language, where we're normally in person or maybe on video chat with them, but traditionally it's in person. We're reading the body language and looking at any type of gestures they do. Are they moving their hands? Are they stomping their feet? Does their eyebrow twitch? Are they blinking a lot? Are they sweating? Are they rubbing their hands? What kind of facial expressions do they have? Are they frowning? Are they smiling? Do they do a certain thing or look a certain way when they’re speaking certain things? These are all clues that can help us determine if they’re lying about something and if there’s more information they would like to share but aren’t sharing yet.
+So guess what? You might have just found a way into that company. Right? So that’s why we do elicitation.
 
-- Pretexting: Then there's pretexting, which is basically us giving false information to get more information. For example, let’s say I pretend I’m a delivery driver for Uber Eats, DoorDash, or one of these food delivery companies. I go to the front desk of a company, and my goal is to get past the receptionist, the gatekeeper. I might say, “I’ve got food for Sally Smith in accounting.” They might say there’s no Sally Smith, or maybe they tell me there is a Sally in accounting. I could have a receipt with someone named Sally, but the last name is crossed out. Then I could say, “I’ve got food for Sally in accounting. Can I take it to her?” If they ask, “Who’s Sally?” or “What’s her last name?” I might say, “I don’t know, see the receipt?” and then continue saying, “I’m just trying to deliver food, what can I do? How can you help me?” My real goal is to get into the company or gather more information from someone. That’s what pretexting is.
+#### Interrogation:
+
+Interrogation, as the name implies, is when we're asking questions. A key point here is the body language, where we're normally in person or maybe on video chat with them, but traditionally it's in person. We're reading the body language and looking at any type of gestures they do. Are they moving their hands? Are they stomping their feet? Does their eyebrow twitch? Are they blinking a lot? Are they sweating? Are they rubbing their hands? What kind of facial expressions do they have? Are they frowning? Are they smiling? Do they do a certain thing or look a certain way when they’re speaking certain things? These are all clues that can help us determine if they’re lying about something and if there’s more information they would like to share but aren’t sharing yet.
+
+#### Pretexting:
+
+Then there's pretexting, which is basically us giving false information to get more information. For example, let’s say I pretend I’m a delivery driver for Uber Eats, DoorDash, or one of these food delivery companies. I go to the front desk of a company, and my goal is to get past the receptionist, the gatekeeper. I might say, “I’ve got food for Sally Smith in accounting.” They might say there’s no Sally Smith, or maybe they tell me there is a Sally in accounting. I could have a receipt with someone named Sally, but the last name is crossed out. Then I could say, “I’ve got food for Sally in accounting. Can I take it to her?” If they ask, “Who’s Sally?” or “What’s her last name?” I might say, “I don’t know, see the receipt?” and then continue saying, “I’m just trying to deliver food, what can I do? How can you help me?” My real goal is to get into the company or gather more information from someone. That’s what pretexting is.
 
 ## Components of Social Engineering
 
 There are different types of social engineering. I want to stress that this is not going to be an all-inclusive list, at least not on the bullet points, but we’ll cover the main areas of social engineering.
 
-- Phishing: So basically, phishing, which you might have heard about, is essentially getting someone to take the action that you want them to take. This can be done via email, which is the most common form of phishing that you’re probably going to see, or through text messaging, which is called SMS phishing, or even through the phone, which is known as vishing (voice phishing).
+#### Phishing:
+
+So basically, phishing, which you might have heard about, is essentially getting someone to take the action that you want them to take. This can be done via email, which is the most common form of phishing that you’re probably going to see, or through text messaging, which is called SMS phishing, or even through the phone, which is known as vishing (voice phishing).
 
 The goal of phishing is to get someone to take an action, such as giving you information, clicking on something to get their login credentials, downloading something to spread malware on the company’s systems, or taking an action like wiring you money because you pose as a CEO and say it’s urgent.
 
-- Spear Phishing: Another thing is spear phishing, which is a targeted attack. While phishing might be a broad blast of emails saying something like, "Hey, your Amazon account is locked out, click this link to log in and change your password," which could go out to millions of people, spear phishing is more specific. For example, you might target one person, like Ken, and try to get him to click a link, or target everyone at a specific company, like a healthcare company, to get them to take a particular action.
+#### Spear Phishing:
 
-- Whaling: When we talk about whaling, we're referring to targeting high-profile individuals, like senior executives. This is more focused on the "big fish" level, like CEOs or CFOs, and the goal is to get them to take some kind of action. So maybe we target the CEO or the CFO or someone like that.
+Another thing is spear phishing, which is a targeted attack. While phishing might be a broad blast of emails saying something like, "Hey, your Amazon account is locked out, click this link to log in and change your password," which could go out to millions of people, spear phishing is more specific. For example, you might target one person, like Ken, and try to get him to click a link, or target everyone at a specific company, like a healthcare company, to get them to take a particular action.
 
-- Pharming: Farming is basically where I type in, for example, Google.com, and instead of going to Google.com, I actually get redirected to a malicious site. But that still looks like Google.com. So that's all we're doing with that. That's a DNS cache poisoning attack. And we're basically just redirecting them to a malicious website or some other website besides the real website.
+#### Whaling:
+
+When we talk about whaling, we're referring to targeting high-profile individuals, like senior executives. This is more focused on the "big fish" level, like CEOs or CFOs, and the goal is to get them to take some kind of action. So maybe we target the CEO or the CFO or someone like that.
+
+#### Pharming:
+
+Farming is basically where I type in, for example, Google.com, and instead of going to Google.com, I actually get redirected to a malicious site. But that still looks like Google.com. So that's all we're doing with that. That's a DNS cache poisoning attack. And we're basically just redirecting them to a malicious website or some other website besides the real website.
   
-- Hoaxing: Hoaxing, many people probably got this way back in the day. That's where they'll send the email, kind of those chain letter emails. Right? If you send this to a million people, you make a million bucks. Or the other thing is maybe, hey, there's a new virus, spread this around, share with your friends, protect everybody. By the way, click the link to download it, update to fix a virus. Right.
+#### Hoaxing:
 
-- Shouolder Surfing: Shoulder surfing, as the name implies, is when someone is looking over your shoulder to gather information. This could happen in public spaces like cafes, airports, or even on public transportation, where someone might observe you entering your PIN, typing a password, or reading sensitive information on your screen.
-  
-- Baiting: Baiting is a social engineering technique where attackers lure individuals into taking an action that will compromise their security. One common example is USB drop attacks, where attackers distribute USB drives in places like company parking lots or public areas, hoping that someone will find one and plug it into their computer out of curiosity or to see who the device belongs to. Once the USB is plugged in, it can spread malware or gain unauthorized access to the computer or network. This method exploits human curiosity to deliver malicious payloads.
+Hoaxing, many people probably got this way back in the day. That's where they'll send the email, kind of those chain letter emails. Right? If you send this to a million people, you make a million bucks. Or the other thing is maybe, hey, there's a new virus, spread this around, share with your friends, protect everybody. By the way, click the link to download it, update to fix a virus. Right.
 
-- Tailgating: Baiting is a social engineering technique where attackers lure individuals into taking an action that will compromise their security. One common example is USB drop attacks, where attackers distribute USB drives in places like company parking lots or public areas, hoping that someone will find one and plug it into their computer out of curiosity or to see who the device belongs to. Once the USB is plugged in, it can spread malware or gain unauthorized access to the computer or network. This method exploits human curiosity to deliver malicious payloads.
+#### Shouolder Surfing:
+
+Shoulder surfing, as the name implies, is when someone is looking over your shoulder to gather information. This could happen in public spaces like cafes, airports, or even on public transportation, where someone might observe you entering your PIN, typing a password, or reading sensitive information on your screen.
+
+#### Baiting:
+
+Baiting is a social engineering technique where attackers lure individuals into taking an action that will compromise their security. One common example is USB drop attacks, where attackers distribute USB drives in places like company parking lots or public areas, hoping that someone will find one and plug it into their computer out of curiosity or to see who the device belongs to. Once the USB is plugged in, it can spread malware or gain unauthorized access to the computer or network. This method exploits human curiosity to deliver malicious payloads.
+
+#### Tailgating:
+
+Baiting is a social engineering technique where attackers lure individuals into taking an action that will compromise their security. One common example is USB drop attacks, where attackers distribute USB drives in places like company parking lots or public areas, hoping that someone will find one and plug it into their computer out of curiosity or to see who the device belongs to. Once the USB is plugged in, it can spread malware or gain unauthorized access to the computer or network. This method exploits human curiosity to deliver malicious payloads.
 
 ## Behaviour Controls
 
