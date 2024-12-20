@@ -30,7 +30,7 @@ Deep dive into NMAP, a powerful tool for network discovery and security auditing
    - [Nmap Glossary Terms](https://github.com/Excalibra/cybersecurity/blob/main/Nmap/Nmap%20Glossary%20Terms.ipynb)
 
 
-### Social Engineering
+### [Social Engineering](https://github.com/Excalibra/cybersecurity/tree/main/Social%20Engineering)
 Explore the art of manipulating individuals to gain access to information or systems.
 
 ### Kali Linux
