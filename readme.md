@@ -41,6 +41,7 @@ The go-to operating system for security professionals.
 ### [Phishing and Countermeasures](https://github.com/Excalibra/cybersecurity/tree/main/Phishing)
 Understand phishing attacks and learn how to defend against them.
    - [Recon](https://github.com/Excalibra/cybersecurity/blob/main/Phishing/Recon.md)
+   - [Automating Your Emails](https://github.com/Excalibra/cs-journal/blob/main/Cybrary%20-%20Become%20a%20Penetration%20Tester/06%20Phishing/Module%203%20-%20Automating%20Your%20Emails.md)
 
 ### Penetration Testing and Ethical Hacking  
 A comprehensive guide to penetration testing practices and ethical hacking principles.
