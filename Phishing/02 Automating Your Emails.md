@@ -1,4 +1,4 @@
-# 3.1 Social Engineer's Toolkit (SET)
+# Social Engineer's Toolkit (SET)
 
 ## What is SET?
 The social engineer's toolkit is everything you need to perform a variety of social engineering attacks. You can perform everything from spearfishing, copying websites, mass mailers, and even powerful attacks. There are a couple of ways to launch it. You can launch it from the GUI (graphical user interface) by clicking Application → Social Engineering Tools → Social Engineer's Toolkit, or from the command line with the command `setoolkit`.
@@ -6,7 +6,7 @@ The social engineer's toolkit is everything you need to perform a variety of soc
 ## lab
 ![image](https://github.com/user-attachments/assets/a8ce7c34-7cb3-45bb-8f87-6085b42d25ad)
 
-# 3.2 Attacking With SET
+# Attacking With SET
 ## Attacking with SET
 - In this video we’re going to perform an actual phishing attack using SET.
 - Remember! This course and lab are for learning purposes only. What I’m about to show you is intended to expand your knowledge and skills, to make you a better penetration tester and cyber security expert. I am not responsible if you decide to break the law.
