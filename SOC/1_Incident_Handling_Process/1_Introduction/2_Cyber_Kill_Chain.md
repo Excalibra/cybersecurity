@@ -8,7 +8,8 @@ Before we start talking about handling incidents, we need to understand the atta
 
 The cyber kill chain consists of seven different stages, as depicted in the image below:
 
-![Flowchart of cyber kill chain steps: Recon, Weaponize, Deliver, Exploit, Install, C&C, Action.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/Cyber_kill_chain.png)
+![Flowchart of cyber kill chain steps: Recon, Weaponize, Deliver, Exploit, Install, C&C, Action.](https://github.com/user-attachments/assets/7bbf4c31-9b03-4858-a6bd-f4c812a0a86f)
+
 
 ## Stages of the Cyber Kill Chain
 
