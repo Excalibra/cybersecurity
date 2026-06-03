@@ -23,7 +23,7 @@ There is no single definition of what an IT security incident is, and therefore 
 
 `Incident handling is a clearly defined set of procedures for managing and responding to security incidents in a computer or network environment.`
 
-![Incident Response Life Cycle flowchart: Preparation → Detection and Analysis → Containment, Eradication, and Recovery → Post‑Incident Activity, with arrows showing feedback loops from each stage back to earlier stages and to Preparation for continuous improvement. Title beneath: "Incident Response Life Cycle Model."](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/ir-lifecycle.png)
+![Incident Response Life Cycle flowchart: Preparation → Detection and Analysis → Containment, Eradication, and Recovery → Post‑Incident Activity, with arrows showing feedback loops from each stage back to earlier stages and to Preparation for continuous improvement. Title beneath: "Incident Response Life Cycle Model."](https://github.com/user-attachments/assets/9c497f29-65ea-4235-ada7-03309a1f5697)
 
 It is important to note that incident handling is not limited to intrusion incidents alone.
 
@@ -87,7 +87,7 @@ This report documents the incident findings in a sequential manner. Each section
 
 The DFIR Labs platform contains many more incident reports. You can check them out [here](https://thedfirreport.com/).
 
-![The DFIR Report homepage showing three featured articles in a grid beneath a red header with navigation.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/dfirreport.png)
+![The DFIR Report homepage showing three featured articles in a grid beneath a red header with navigation.](https://github.com/user-attachments/assets/09c4d7d7-2b18-4ef4-9146-f1777a972094)
 
 Here's another example of an incident report from Cybereason.
 
@@ -114,7 +114,7 @@ Throughout this module, we'll refer to an incident scenario to understand some c
 
 The diagram below shows an overview of the victim and the threat actors.
 
-![Network flow diagram: Internet threat actors probe two web consoles—ManageEngine AD Manager and a PHP Client Reports Portal—through a firewall into an internal network containing a Domain Controller, multiple Windows machines, a Database Server, and File Servers. Event logs from these systems go to the SIEM, which integrates with TheHive. TheHive notifies a SOC Analyst, who performs analysis and generates alerts and cases.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/insights1.png)
+![Network flow diagram: Internet threat actors probe two web consoles—ManageEngine AD Manager and a PHP Client Reports Portal—through a firewall into an internal network containing a Domain Controller, multiple Windows machines, a Database Server, and File Servers. Event logs from these systems go to the SIEM, which integrates with TheHive. TheHive notifies a SOC Analyst, who performs analysis and generates alerts and cases.](https://github.com/user-attachments/assets/51bc08bc-79d5-4cbe-aa6e-fe7516993d78)
 
 Based on the information we have collected, the first threat actor gained entry when system administrators forgot to change the default admin/admin password on an internet-facing application, i.e., ManageEngine ADManager Plus, after a product update. By leveraging this, the attackers logged in successfully, performed reconnaissance, mapped users and machines, and eventually created new privileged Active Directory accounts. Using one of the newly created accounts, the adversaries pivoted further into the environment, identifying an external RDP service exposed by misconfiguration. Exploiting that entry point, they escalated their control and eventually used Group Policy Objects (GPOs) to deploy spyware using an MSI package across multiple endpoints.
 
