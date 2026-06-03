@@ -73,6 +73,6 @@ Offensive tactics and strategies used in penetration testing.
 ### Penetration Testing Execution Standard (PTES)
 Overview of the PTES framework for structured penetration testing.
 
-### SOC Analyst
+### [SOC](https://github.com/Excalibra/cybersecurity/tree/main/SOC)
 
 ---
