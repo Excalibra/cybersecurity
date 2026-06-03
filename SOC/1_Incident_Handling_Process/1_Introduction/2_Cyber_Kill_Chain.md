@@ -15,7 +15,7 @@ The cyber kill chain consists of seven different stages, as depicted in the imag
 
 The `Recon` (Reconnaissance) stage is the initial stage, and it involves the part where an attacker chooses their target. Additionally, the attacker performs information gathering to become more familiar with the target and gathers as much useful data as possible, which can be used not only in this stage but also in other stages of this chain. Some attackers prefer to perform passive information gathering from web sources such as LinkedIn and Instagram, but also from documentation on the target organization's web pages. Job ads and company partners often reveal information about the technology utilized in the target organization. They can provide extremely specific information about antivirus tools, operating systems, and networking technologies. Other attackers go a step further; they start 'poking' and actively scan external web applications and IP addresses that belong to the target organization.
 
-![Reconnaissance Stage diagram split into Active and Passive Recon. Active Recon: Identify target and scope; Locate open ports; Identify services on open ports; Map entire network. Passive Recon: Information gathering from web sources (job ads, company partners); Social media (LinkedIn, Instagram, Facebook); Avoid detection at all times. Icons accompany each item on a dark background.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/ir_recon.png)
+![Reconnaissance Stage diagram split into Active and Passive Recon. Active Recon: Identify target and scope; Locate open ports; Identify services on open ports; Map entire network. Passive Recon: Information gathering from web sources (job ads, company partners); Social media (LinkedIn, Instagram, Facebook); Avoid detection at all times. Icons accompany each item on a dark background.](https://github.com/user-attachments/assets/4d1ed8b1-680e-4ea3-a03c-c5303826b589)
 
 In the `Weaponize` stage, the malware to be used for initial access is developed and embedded into some type of exploit or deliverable payload. This malware is crafted to be extremely lightweight and undetectable by antivirus and detection tools. It is likely that the attacker has gathered information to identify the present antivirus or EDR technology present in the target organization. On a large scale, the sole purpose of this initial stage is to provide remote access to a compromised machine in the target environment, which also has the capability to persist through machine reboots and the ability to deploy additional tools and functionality on demand.
 
@@ -47,7 +47,7 @@ The MITRE ATT&CK Enterprise Matrix is a knowledge base that documents adversary 
 
 The screenshot below shows an example of the MITRE ATT&CK Enterprise Matrix:
 
-![The tactics and techniques representing the MITRE ATT&CK® Matrix for Enterprise.](https://github.com/user-attachments/assets/4d1ed8b1-680e-4ea3-a03c-c5303826b589)
+![The tactics and techniques representing the MITRE ATT&CK® Matrix for Enterprise.](https://github.com/user-attachments/assets/ca269cea-fb97-4047-8f2d-a06dc019475f)
 
 
 ### Tactic
@@ -80,7 +80,7 @@ This enables precise detection, attribution, and reporting (we can say "We detec
 
 In the diagram below, the Pyramid of Pain illustrates how much `effort it takes for an adversary to change their tactics` when defenders detect and block different types of indicators. At the base of the pyramid are simple indicators like hash values, IP addresses, and domain names — these are easily changed by attackers (low pain).
 
-![Pyramid of pain graphic mapping indicator types to defender difficulty. From bottom to top: Hash Values (Trivial), IP Addresses (Easy), Domain Names (Simple), Network/Host Artifacts (Annoying), Tools (Challenging), TTPs—ATT&CK (Tough). Header shows MITRE ATT&CK tactics across the top (Reconnaissance through Impact).](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/ir_mitre.png)
+![Pyramid of pain graphic mapping indicator types to defender difficulty. From bottom to top: Hash Values (Trivial), IP Addresses (Easy), Domain Names (Simple), Network/Host Artifacts (Annoying), Tools (Challenging), TTPs—ATT&CK (Tough). Header shows MITRE ATT&CK tactics across the top (Reconnaissance through Impact).](https://github.com/user-attachments/assets/c87193ab-5446-47ce-98fb-edc852277ed9)
 
 For example, `blocking a malicious IP` in a MITRE ATT&CK "Command and Control" ([T1071](https://attack.mitre.org/techniques/T1071/)) scenario will only `slightly slow down` the adversary since they can quickly switch to a new C2 server. Moving upward, network and host artifacts (like registry keys, mutex names, or filenames) correspond to specific techniques in ATT&CK (e.g., [T1547.001](https://attack.mitre.org/techniques/T1547/001/) – Registry Run Keys/Startup Folder). These take `more effort` to change and are more resilient indicators for defenders.
 
@@ -102,11 +102,11 @@ To access TheHive platform, navigate to `http://TARGET_IP:9000` and use the foll
 - `Username`: htb-analyst
 - `Password`: P3n#31337@LOG
 
-![TheHive web app login page in Firefox at http://10.129.234.131:9000/login (marked Not Secure). Right pane shows greeting "Hello," with fields prefilled: username "htb-analyst" and a masked password, plus a "Let me in" button and "I forgot my password" link. Left pane displays TheHive logo and wordmark on a dark background.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/ir_hive.png)
+![TheHive web app login page in Firefox at http://10.129.234.131:9000/login (marked Not Secure). Right pane shows greeting "Hello," with fields prefilled: username "htb-analyst" and a masked password, plus a "Let me in" button and "I forgot my password" link. Left pane displays TheHive logo and wordmark on a dark background.](https://github.com/user-attachments/assets/c81ed9ff-6618-4940-8497-3d805d914591)
 
 Upon logging in, the dashboard will be displayed. We can view the alerts page as shown in the screenshot below, allowing us to view and manage alerts effectively.
 
-![TheHive "Alerts" page in Firefox at http://10.129.234.131:9000/alerts showing 43 alerts. Two visible alerts read "Possible suspicious access to Windows admin shares," status New, type wazuh_alert from source wazuh. Details show rule=92105, agent_name=SCDC01, agent_id=005, agent_ip=172.16.200.50, references a130aa and fa3660, Observables count 1, TTPs 0, created/updated 09/10/2025 04:41 (one updated 10:04). Left sidebar highlights the Alerts icon; top bar includes search and "Create Case+."](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/ir_hive1.png)
+![TheHive "Alerts" page in Firefox at http://10.129.234.131:9000/alerts showing 43 alerts. Two visible alerts read "Possible suspicious access to Windows admin shares," status New, type wazuh_alert from source wazuh. Details show rule=92105, agent_name=SCDC01, agent_id=005, agent_ip=172.16.200.50, references a130aa and fa3660, Observables count 1, TTPs 0, created/updated 09/10/2025 04:41 (one updated 10:04). Left sidebar highlights the Alerts icon; top bar includes search and "Create Case+."](https://github.com/user-attachments/assets/d35bec01-a515-4915-8f1f-21760bf548e1)
 
 ## Example of MITRE ATT&CK Mapping
 
