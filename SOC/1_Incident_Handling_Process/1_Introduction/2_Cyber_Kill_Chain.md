@@ -47,7 +47,8 @@ The MITRE ATT&CK Enterprise Matrix is a knowledge base that documents adversary 
 
 The screenshot below shows an example of the MITRE ATT&CK Enterprise Matrix:
 
-![The tactics and techniques representing the MITRE ATT&CK® Matrix for Enterprise.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/mitreintro.png)
+![The tactics and techniques representing the MITRE ATT&CK® Matrix for Enterprise.](https://github.com/user-attachments/assets/4d1ed8b1-680e-4ea3-a03c-c5303826b589)
+
 
 ### Tactic
 
