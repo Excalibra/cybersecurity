@@ -55,6 +55,7 @@
 ### Leaks and Data Breaches
 
 - [Have I Been Pwned?](https://haveibeenpwned.com)
+- [Hudson Rock](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 - [LeakPeek](https://leakpeek.com)
 - [WeLeakInfo](https://www.weleakinfo.com)
 - [GhostProject](https://ghostproject.fr)
