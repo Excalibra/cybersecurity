@@ -8,7 +8,6 @@ In this and the following sections, we will create a dashboard and some visualiz
 
 ## Developing Our First Dashboard & Visualization
 
-Navigate to the bottom of this section and click on `Click here to spawn the target system!`
 
 Now, navigate to `http://[Target IP]:5601`, click on the side navigation toggle, and click on "Dashboard".
 
