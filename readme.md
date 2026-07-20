@@ -74,5 +74,9 @@ Offensive tactics and strategies used in penetration testing.
 Overview of the PTES framework for structured penetration testing.
 
 ### [SOC](https://github.com/Excalibra/cybersecurity/tree/main/SOC)
+For SOC Analyst guides
+   - [Incident Handling Process](https://github.com/Excalibra/cybersecurity/tree/main/SOC/01_Incident_Handling_Process)
+   - [Security Monitoring & SIEM Fundamentals](https://github.com/Excalibra/cybersecurity/tree/main/SOC/02_Security_Monitoring_and_SIEM_Fundamentals)
+   - [Windows Event Logs & Finding Evil](https://github.com/Excalibra/cybersecurity/tree/main/SOC/03_Windows_Event_Logs_%26_Finding_Evil)
 
 ---
