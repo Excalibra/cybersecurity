@@ -1,4 +1,4 @@
-<img width="3065" height="1729" alt="image" src="https://github.com/user-attachments/assets/cf760e53-9787-449a-b7e0-3e6649cc0a29" /># Tapping Into ETW
+# Tapping Into ETW
 
 ## Detection Example 1: Detecting Strange Parent-Child Relationships
 
